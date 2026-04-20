@@ -1,8 +1,13 @@
 import pandas as pd
 import plotly.express as px
 import ast
+import os
 
-df = pd.read_csv('tmdb_5000_movies.csv')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+ruta_csv = os.path.join(BASE_DIR, '..', '..', 'Datos', 'BenjaminUrrutia', 'tmdb_5000_movies.csv')
+
+df = pd.read_csv(ruta_csv)
 
 def obtener_generos(json_str):
     try:

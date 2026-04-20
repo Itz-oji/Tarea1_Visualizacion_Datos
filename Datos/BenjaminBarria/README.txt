@@ -1,2 +1,29 @@
-Los datos obtenidos para la realizacion del grafico es: https://es.wikipedia.org/wiki/Anexo:Pel%C3%ADculas_con_las_mayores_recaudaciones, ademas en el archivo .csv se dispone de mas hojas con datos, los cules tiene sus respectibas referencias al final de los mismos, estos fueron utilizados para estudio  personal y no fueron necesariamente utilizados en la grafica.
-Los datos muestan un top 100 de las mayores ventas mundiales de peliculas ademas se agregan 2 clumnas a partir de los datos que son utilizados para la realizacion del grafico, se calcula la columna ROI apartir de los datos encontrados y se solicita ayuda a "Gemini" para obtener la duracion de las peliculas listadas (los datos obtenidos por gemini fueron parcialmente verificados) 
+## 📊 Dataset: Películas con mayores recaudaciones
+
+### 📌 Fuente de los datos
+Los datos utilizados para la realización del gráfico fueron obtenidos desde:
+
+🔗 [Películas con las mayores recaudaciones (Wikipedia)](https://es.wikipedia.org/wiki/Anexo:Pel%C3%ADculas_con_las_mayores_recaudaciones)
+
+Además, el archivo `.csv` contiene hojas adicionales con información complementaria.  
+Cada una incluye sus respectivas referencias al final.  
+Estos datos fueron utilizados para **estudio personal** y no necesariamente forman parte del gráfico final.
+
+---
+
+### 🎬 Descripción del dataset
+El dataset corresponde a un **Top 100 de películas con mayores ingresos a nivel mundial**.
+
+Se añadieron dos columnas adicionales para el análisis:
+
+- **ROI (Return on Investment)**  
+  Calculado a partir de los datos de presupuesto e ingresos.
+
+- **Duración de las películas**  
+  Obtenida con ayuda de *Gemini* y parcialmente verificada manualmente.
+
+---
+
+### ⚠️ Consideraciones
+- Los datos de duración pueden contener pequeñas imprecisiones.  
+- El dataset fue preparado con fines académicos y exploratorios.  

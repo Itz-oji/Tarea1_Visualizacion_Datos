@@ -28,7 +28,7 @@ plt.scatter(df['Nota Crítica (Normalizada 1-10)'], df['Película'], color='#e74
 plt.scatter(df['Nota Público (User Score)'], df['Película'], color='#2ecc71',
             label='Público (User Score)', s=100, zorder=3)
 
-plt.title('Brecha de Opinión: Crítica vs. Público (Grupo 8)',
+plt.title('Brecha de Opinión: Crítica vs. Público',
           loc='left', pad=30, fontsize=16, fontweight='bold')
 plt.xlabel('Calificación Normalizada (Escala 1-10)', fontsize=12, labelpad=15)
 

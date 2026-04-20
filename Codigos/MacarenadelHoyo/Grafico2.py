@@ -21,6 +21,11 @@ plt.scatter(df['Nota Crítica (Normalizada)'], df['Película'], color='#e74c3c',
 plt.scatter(df['Nota Público'], df['Película'], color='#2ecc71',
             label='Público (User Score)', s=100, zorder=3)
 
+df_coincide = df[df['Nota Crítica (Normalizada)'] == df['Nota Público']]
+if not df_coincide.empty:
+    plt.scatter(df_coincide['Nota Crítica (Normalizada)'], df_coincide['Película'],
+                color='purple', label='Coinciden', s=100, zorder=4)
+
 plt.title('Brecha de Opinión: Crítica vs. Público',
           loc='left', pad=30, fontsize=16, fontweight='bold')
 plt.xlabel('Calificación Normalizada (Escala 1-10)', fontsize=12, labelpad=15)
@@ -34,5 +39,5 @@ for spine in ["top", "right", "left"]:
     ax.spines[spine].set_visible(False)
 
 plt.tight_layout()
-plt.savefig('Visualizacion_Grafico2.png', dpi=300, bbox_inches='tight')
+plt.savefig('Grafico2.png', dpi=300, bbox_inches='tight')
 plt.show()

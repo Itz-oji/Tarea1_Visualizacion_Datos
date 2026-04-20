@@ -24,4 +24,5 @@ El dataset corresponde a un **Top 100 de películas con mayores ingresos a nivel
 
 ### ⚠️ Consideraciones
 - Los datos de duración pueden contener pequeñas imprecisiones.  
-- El dataset fue preparado con fines académicos y exploratorios.  
+- El dataset fue preparado con fines académicos y exploratorios.
+- La creacion de este README fue echa con ayuda de chatGPT para estilizar la informacion.  

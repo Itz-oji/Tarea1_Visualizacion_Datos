@@ -1,6 +1,6 @@
-##📊 Dataset: Películas con mayores recaudaciones
+### 📊 Dataset: Películas con mayores recaudaciones
 
-###📌 Fuente de los datos
+### 📌 Fuente de los datos
 Los datos utilizados para la realización del gráfico fueron obtenidos desde:
 
 🔗 [Películas con las mayores recaudaciones (Wikipedia)](https://es.wikipedia.org/wiki/Anexo:Pel%C3%ADculas_con_las_mayores_recaudaciones)
@@ -11,7 +11,7 @@ Estos datos fueron utilizados para **estudio personal** y no necesariamente form
 
 ---
 
-###🎬 Descripción del dataset
+### 🎬 Descripción del dataset
 El dataset corresponde a un **Top 100 de películas con mayores ingresos a nivel mundial**. Al cual se le añadieron dos columnas adicionales para el análisis:
 
 - **ROI (Return on Investment)**  

@@ -31,7 +31,7 @@ fig = px.treemap(
     path=['lista_generos'], 
     values='count',      
     color='avg_revenue', 
-    color_continuous_scale='RdBu', 
+    color_continuous_scale='RdBu_r', 
     title='Análisis de Géneros: Tamaño por Cantidad, Color por Recaudación Promedio',
     labels={'count': 'N° de Películas', 'lista_generos': 'Género', 'avg_revenue': 'Recaudación Promedio'}
 )

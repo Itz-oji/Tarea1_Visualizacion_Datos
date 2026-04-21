@@ -1,0 +1,1 @@
+[Link de Colab con codigo creado por IA](https://colab.research.google.com/drive/1vbk1-dGQSB8SQ24uyKMLCBrwsHbLzVW-?usp=sharing)
